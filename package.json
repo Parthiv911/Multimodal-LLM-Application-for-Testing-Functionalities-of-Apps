@@ -1,0 +1,18 @@
+{
+  "name": "myracle_task",
+  "version": "1.0.0",
+  "main": "backend.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "child_process": "^1.0.2",
+    "express": "^4.19.2",
+    "python-shell": "^5.0.0"
+  }
+}
