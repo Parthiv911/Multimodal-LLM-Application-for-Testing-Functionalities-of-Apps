@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image and Context Input</title>
+</head>
+
+<body>
+    <h1>Image and Context Input</h1>
+    <form id="aform">
+        <label for="context">Optional Context:</label>
+        <input type="text" id="context" name="context">
+
+        <label for="screenshots" id="asd">Screenshots (Required):</label>
+        <input type="file" id="screenshots" name="screenshots" multiple>
+        
+        <button type="submit" id="submitbutton">Describe Testing Instructions</button>
+        
+    </form>
+    <br>
+    <p1 >Testing Instructions:</p1>
+    <br>
+    <pre id="responsefromllm"></pre>
+    <script src="frontend.js"></script>
+</body>
+
+</html>
